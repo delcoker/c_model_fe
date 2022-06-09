@@ -10,7 +10,9 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 import { jsx as _jsx } from "react/jsx-runtime";
-import Typography from '@mui/material/Typography';
-export default function Title(props) {
-    return (_jsx(Typography, __assign({ component: "h2", variant: "h6", color: "primary", gutterBottom: true }, { children: props.children })));
+import './App.css';
+import Dashboard from "./components/dashboard_/Dashboard";
+function App() {
+    return (_jsx("div", __assign({ className: "App" }, { children: _jsx(Dashboard, {}) })));
 }
+export default App;

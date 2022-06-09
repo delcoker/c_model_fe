@@ -30,9 +30,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { mainListItems, secondaryListItems } from './listItems';
-import Chart from './Chart';
 import Deposits from './Deposits';
 import Orders from './Orders';
+import ContinuousSlider from "../slider/slider";
 function Copyright(props) {
     return (_jsxs(Typography, __assign({ variant: "body2", color: "text.secondary", align: "center" }, props, { children: ['Copyright © ', _jsx(Link, __assign({ color: "inherit", href: "https://mui.com/" }, { children: "C-Model" })), ' ', new Date().getFullYear(), '.'] })));
 }
@@ -101,7 +101,7 @@ function DashboardContent() {
                                                     display: 'flex',
                                                     flexDirection: 'column',
                                                     height: 240,
-                                                } }, { children: _jsx(Chart, {}) })) })), _jsx(Grid, __assign({ item: true, xs: 12, md: 4, lg: 3 }, { children: _jsx(Paper, __assign({ sx: {
+                                                } }, { children: _jsx(ContinuousSlider, {}) })) })), _jsx(Grid, __assign({ item: true, xs: 12, md: 4, lg: 3 }, { children: _jsx(Paper, __assign({ sx: {
                                                     p: 2,
                                                     display: 'flex',
                                                     flexDirection: 'column',
